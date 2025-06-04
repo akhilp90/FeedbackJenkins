@@ -1,0 +1,33 @@
+{
+  "name": "feedback-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "start": "node server.js",
+    "lint": "eslint **/*.{js,mjs,json} --ignore-pattern package.json"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.15.1",
+    "nodemailer": "^7.0.3"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.8.1",
+    "@eslint/js": "^9.28.0",
+    "@eslint/json": "^0.12.0",
+    "@eslint/markdown": "^6.4.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.2.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
